@@ -1,10 +1,37 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div style="text-align:center;">
+    <div style="margin-top:50px;">
+        <h4>Category</h4>
+        <div style="text-align:center">
+            @for (int i = 0; i < 5; i++)
+            {
+                <img style="background-color:aqua; width:150px; height:250px; margin:20px;" />
+            }
+        </div>
+    </div>
 </div>
+
+<div style="text-align:center;">
+    <div style="margin-top:50px;">
+        <h4>Products</h4>
+        @for (int i = 0; i < 2; i++)
+        {
+            <div style="text-align:center; display:inline-flex">
+                @for (int j = 0; j < 5; j++)
+                {
+                    <div style="width:150px; height:250px; background-color:aqua; margin:20px;">
+                        <img style="width:150px; height:170px; background-color:beige;" />
+                        <div style="width:150px; height:50px; background-color:burlywood;">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail">Name</a>
+                        </div>
+                        <div style="width:150px; height:30px;">Price</div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+

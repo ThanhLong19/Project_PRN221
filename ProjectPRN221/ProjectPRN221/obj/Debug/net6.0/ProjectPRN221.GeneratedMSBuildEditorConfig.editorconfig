@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Long\Documents\GitHub\Project_PRN221\ProjectPRN221\ProjectPRN221
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Product/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Long/Documents/GitHub/Project_PRN221/ProjectPRN221/ProjectPRN221/Pages/Shared/_ValidationScriptsPartial.cshtml]
