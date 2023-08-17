@@ -1,0 +1,32 @@
+﻿@page
+@model ProjectPRN221.Pages.Product.DetailModel
+@{
+}
+<div style="height:300px; margin-top:50px;">
+    <div style="float: left;width: 30%;height: 300px; text-align:center;">
+        <img style="background-color:antiquewhite; width:200px; height:250px; margin: 25px 0;" />
+    </div>
+    <div style="height: 300px; display:grid;">
+        <div style="margin: 25px 0 0 10px;">Name</div>
+        <div style="margin: 25px 0 0 10px;">Price</div>
+        <div style="margin: 25px 0 0 10px;">Category</div>
+        <div style="margin: 25px 0 0 10px; display:flex;">
+            <div>
+                Quantity
+            </div>
+            <form style="margin:0 20px;">
+                <input type='button' value="-"  />
+                <input type='text' value="0" style="width:60px; text-align:center;"/>
+                <input type='button' value="+"  />
+            </form>
+        </div>
+        <div>
+            <input type="submit" value="Add to cart" style="margin: 25px 0 0 10px;" />
+        </div>
+    </div>
+</div>
+<h4 style="margin-top: 50px;">
+    Description
+</h4>
+<div style="background-color:antiquewhite; height:300px;">
+</div>
