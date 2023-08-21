@@ -1981,11 +1981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectPRN221Block\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
+      "projectUniqueName": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
       "projectName": "ProjectPRN221",
-      "projectPath": "D:\\ProjectPRN221Block\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
+      "projectPath": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
       "packagesPath": "C:\\Users\\longb\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectPRN221Block\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\",
+      "outputPath": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
