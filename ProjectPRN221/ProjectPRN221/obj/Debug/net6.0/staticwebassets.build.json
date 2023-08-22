@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
-  "Hash": "BOFuWyHjWNQjn8zMNUScwzfNi32GeWyeuF9ebDqYOLQ=",
-=======
-  "Hash": "w3RBftN6yHdJiT9kYS5Qv4giYhfd0Of5UUri5e2eNDU=",
->>>>>>> Stashed changes
+  "Hash": "+MmeDANJwy0nIwLfXE7Yzy5pb6QuPLRXU4qeTeTDeGM=",
   "Source": "ProjectPRN221",
   "BasePath": "_content/ProjectPRN221",
   "Mode": "Default",
@@ -14,17 +10,17 @@
     {
       "Name": "ProjectPRN221\\wwwroot",
       "Source": "ProjectPRN221",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ProjectPRN221.styles.css",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ProjectPRN221.styles.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "ProjectPRN221.styles.css",
       "AssetKind": "All",
@@ -35,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ProjectPRN221.styles.css"
+      "OriginalItemSpec": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ProjectPRN221.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjectPRN221.bundle.scp.css",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjectPRN221.bundle.scp.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "ProjectPRN221.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjectPRN221.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjectPRN221.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\css\\site.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -72,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\favicon.ico",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -89,68 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\js\\site.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\img\\1.jpg",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "img/1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\img\\2.jpg",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "img/2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\img\\logo.png",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "img/logo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.png"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\js\\site.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -164,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -181,34 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -222,34 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -263,34 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -304,34 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -345,34 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -386,34 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -427,34 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -468,34 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -509,34 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -550,34 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -591,34 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -632,34 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -673,34 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -714,34 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -755,34 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -796,34 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -837,34 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -878,34 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -919,34 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -960,34 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1001,34 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1042,34 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1083,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1100,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1117,34 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-      "BasePath": "_content/ProjectPRN221",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "ProjectPRN221",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1158,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1175,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1192,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1209,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1226,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1243,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1260,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1277,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProjectPRN221",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\wwwroot\\",
       "BasePath": "_content/ProjectPRN221",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

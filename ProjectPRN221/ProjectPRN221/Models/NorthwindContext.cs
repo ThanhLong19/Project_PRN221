@@ -28,11 +28,7 @@ namespace ProjectPRN221.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("server=(local);database=Northwind;uid=sa;pwd=123;TrustServerCertificate=True;");
-            }
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -234,10 +230,6 @@ namespace ProjectPRN221.Models
                 entity.Property(e => e.ProductId).HasColumnName("ProductID");
 
                 entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
-
-                //entity.Property(e => e.Description).HasMaxLength(50);
-
-                //entity.Property(e => e.Picture).HasColumnType("image");
 
                 entity.Property(e => e.ProductName)
                     .IsRequired()

@@ -1,32 +1,42 @@
 ﻿@page
 @model ProjectPRN221.Pages.Account.RegisterModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
 }
 
-<div style="width: 400px;height:600px;background-color:blanchedalmond;margin: 80px auto;">
+<div style="width: 400px;height:800px;background-color:blanchedalmond;margin: 80px auto;">
     <h3 style="text-align: center;padding: 20px;font-weight:bold;">
         Register
     </h3>
-    <form>
+    <form method="post">
+        <input asp-for="Customer.CustomerId" value="1" type="hidden" /><br />
         <div style="margin: 20px 20px;">
-            <div>Username</div>
-            <input type="text" style="width: 100%" />
+            <div>Email</div>
+            <input asp-for="Account.Email" type="text" style="width: 100%" />
         </div>
         <div style="margin: 20px 20px;">
             <div>Password</div>
-            <input type="password" style="width: 100%" />
+            <input asp-for="Account.Password" type="password" style="width: 100%" />
         </div>
         <div style="margin: 20px 20px;">
-            <div>Confirm Password</div>
-            <input type="password" style="width: 100%" />
+            <div>Company Name</div>
+            <input asp-for="Customer.CompanyName" type="text" style="width: 100%" />
         </div>
         <div style="margin: 20px 20px;">
-            <div>Email</div>
-            <input type="email" style="width: 100%" />
+            <div>Contact name</div>
+            <input asp-for="Customer.ContactName" type="text" style="width: 100%" />
         </div>
         <div style="margin: 20px 20px;">
-            <div>Phone Number</div>
-            <input type="text" style="width: 100%" />
+            <div>Contact title</div>
+            <input asp-for="Customer.ContactTitle" type="text" style="width: 100%" />
+        </div>
+        <div style="margin: 20px 20px;">
+            <div>Address</div>
+            <input asp-for="Customer.Address" type="text" style="width: 100%" />
+        </div>
+        <div style="margin: 20px 20px;">
+            <div>Phone</div>
+            <input asp-for="Customer.Phone" type="text" style="width: 100%" />
         </div>
         <div style="margin: 30px 20px;">
             <input type="submit" value="Register" style="width: 100%" class="btn btn-success" />

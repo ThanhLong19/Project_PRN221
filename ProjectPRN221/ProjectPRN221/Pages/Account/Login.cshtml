@@ -1,19 +1,20 @@
 ﻿@page
 @model ProjectPRN221.Pages.Account.LoginModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
 }
 <div style="width: 400px;height:500px;background-color:blanchedalmond;margin: 80px auto;">
     <h3 style="text-align: center;padding: 20px;font-weight:bold;">
         Login
     </h3>
-    <form>
+    <form method="post">
         <div style="margin: 20px 20px;">
-            <div>Username</div>
-            <input type="text" style="width: 100%"/>
+            <label for="email">Email</label>
+            <input asp-for="Account.Email" type="text" style="width: 100%"/>
         </div>
         <div style="margin: 20px 20px;">
-            <div>Password</div>
-            <input type="password" style="width: 100%" />
+            <label for="password">Password</label>
+            <input asp-for="Account.Password" type="password" style="width: 100%" />
         </div>
         <div style ="margin: 30px 20px;">
             <input type="submit" value="Login" style="width: 100%" class="btn btn-success" />
