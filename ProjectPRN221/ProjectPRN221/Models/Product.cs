@@ -20,6 +20,8 @@ namespace ProjectPRN221.Models
         public short? UnitsOnOrder { get; set; }
         public short? ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
+        public string? Description { get; set; }
+        public byte[]? Picture { get; set; }
 
         public virtual Category Category { get; set; }
         public virtual Supplier Supplier { get; set; }

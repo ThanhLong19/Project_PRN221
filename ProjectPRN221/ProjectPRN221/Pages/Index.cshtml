@@ -1,36 +1,50 @@
 ﻿@page
 @model IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-<div style="text-align:center;">
-    <div style="margin-top:50px;">
+<div style="text-align: center; margin-top: 50px;">
+    <div style="margin-bottom: 20px;">
         <h4>Category</h4>
-        <div style="text-align:center">
-            @for (int i = 0; i < 5; i++)
-            {
-                <img style="background-color:aqua; width:150px; height:250px; margin:20px;" />
-            }
-        </div>
+    </div>
+    <div class="div_list">
+        @foreach (var c in Model.Categories)
+        {
+            <div style="position: relative; text-align: center;">
+                <img class="div_list_img" src="~/img/2.jpg" />
+                <span class="div_list_span">
+                    <a class="div_list_span_a" asp-page="/Product/List" asp-route-categoryId="@c.CategoryId">
+                        @c.CategoryName
+                    </a>
+                </span>
+            </div>
+        }
     </div>
 </div>
 
 <div style="text-align:center;">
     <div style="margin-top:50px;">
-        <h4>Products</h4>
-        @for (int i = 0; i < 2; i++)
-        {
-            <div style="text-align:center; display:inline-flex">
-                @for (int j = 0; j < 5; j++)
-                {
-                    <div style="width:150px; height:250px; background-color:aqua; margin:20px;">
-                        <img style="width:150px; height:170px; background-color:beige;" />
-                        <div style="width:150px; height:50px; background-color:burlywood;">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail">Name</a>
-                        </div>
-                        <div style="width:150px; height:30px;">Price</div>
+        <div>
+            <h4>Products Hot</h4>
+        </div>
+        <div class="div_list">
+            @foreach (var p in Model.Hot)
+            {
+                <div style="width:150px; height:250px; background-color:aqua; margin:20px;">
+                    <img style="width:150px; height:170px;" src="~/img/1.jpg"/>
+                    <div style="width:150px; height:50px; background-color:burlywood;">
+                        @if (p.ProductName.Length > 20)
+                        {
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail" asp-route-pid="@p.ProductId" style="font-size:14px;">@p.ProductName.Substring(0,20)</a>
+                        }
+                        else
+                        {
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail" asp-route-pid="@p.ProductId" style="font-size:14px;">@p.ProductName</a>
+                        }
                     </div>
-                }
-            </div>
-        }
+                    <div style="width:150px; height:30px;">@p.UnitPrice</div>
+                </div>
+            }
+        </div>
     </div>
 </div>
 
