@@ -16,3 +16,29 @@ html {
 body {
   margin-bottom: 60px;
 }
+.div_list {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 20px;
+    justify-content: center;
+}
+.div_list_img {
+    background-color: aqua;
+    width: 150px;
+    height: 250px;
+    margin: 20px;
+}
+.div_list_span {
+    position: absolute;
+    bottom: 22px;
+    transform: translateX(-35%);
+    background-color: white;
+    height: auto;
+    width: 140px;
+    font-size: 16px;
+    background-color: aqua
+}
+.div_list_span_a{
+    text-decoration:none;
+    color:black;
+}

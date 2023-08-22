@@ -1,28 +1,28 @@
 ﻿@page
 @model ProjectPRN221.Pages.Product.ListModel
-@{
-}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <div style="margin:0px 0; text-align:center; margin-top:50px;">
-    <form>
-        <input type="text" style=" width:400px;" />
-        <input type="submit" value="Search" class="btn btn-success" />
+    <form method="get">
+        <input type="text" style=" width:400px;" name="nameSearch"/>
+        <input type="submit" value="Search" class="btn btn-success"/>
     </form>
 </div>
 
 <div style="margin:30px;">
-    <form style="display: flex; align-items:center; justify-content:center;">
-        <div style="display:flex;">
+    <form method="get" style="display: flex; align-items:center; justify-content:center;">
+         <div style="display:flex;">
             <div>Price</div>
-            <input style="width:60px; height:30px; margin:0 10px;" />
-            <input style="width:60px; height:30px; margin:0 5px;" />
+            <input style="width:60px; height:30px; margin:0 10px;" name="minPrice"/>
+            <input style="width:60px; height:30px; margin:0 5px;" name="maxPrice"/>
         </div>
         <div style="display:flex; margin:0 50px;">
             <div>Category</div>
-            <select style="width:150px; margin:0 10px;">
-                @for (int i = 0; i < 5; i++)
+            <select style="width:150px; margin:0 10px;" name="categoryId">
+                <option>Select All</option>
+                @foreach(var c in Model.Categories)
                 {
-                    <option>Select</option>
+                    <option value="@c.CategoryId">@c.CategoryName</option>
                 }
             </select>
         </div>
@@ -32,23 +32,29 @@
     </form>
 </div>
 
-@for (int i = 0; i < 3; i++)
-{
-    <div style="text-align:center;">
-        <div style="text-align:center; display:inline-flex">
-            @for (int j = 0; j < 5; j++)
+<div style="text-align:center;">
+    <div style="text-align:center; display:inline-flex">
+        <div class="div_list">
+            @foreach (var p in Model.Products)
             {
                 <div style="width:150px; height:250px; background-color:aqua; margin:20px;">
-                    <img style="width:150px; height:170px; background-color:beige;" />
+                    <img style="width:150px; height:170px;" src="~/img/1.jpg" />
                     <div style="width:150px; height:50px; background-color:burlywood;">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail">Name</a>
+                        @if (p.ProductName.Length > 15)
+                        {
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail" asp-route-pid="@p.ProductId" style="font-size:14px;">@p.ProductName.Substring(0,15)</a>
+                        }
+                        else
+                        {
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Product/Detail" asp-route-pid="@p.ProductId" style="font-size:14px;">@p.ProductName</a>
+                        }
                     </div>
-                    <div style="width:150px; height:30px;">Price</div>
+                    <div style="width:150px; height:30px;">@p.UnitPrice</div>
                 </div>
             }
         </div>
     </div>
-}
+</div>
 
 <div style="text-align:center; display:flex; justify-content:center;">
     <div style="background-color:antiquewhite; height:30px; width:30px; margin:5px">1</div>

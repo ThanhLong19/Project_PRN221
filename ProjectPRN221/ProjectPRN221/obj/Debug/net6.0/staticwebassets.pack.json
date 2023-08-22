@@ -13,6 +13,21 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -25,178 +40,244 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
