@@ -34,12 +34,12 @@ namespace ProjectPRN221.Pages.Account
                 if (member.Role == 1)
                 {
                     HttpContext.Session.SetString("admin", JsonSerializer.Serialize(member));
-                    return RedirectToPage("Register");
+                    return RedirectToPage("/Index");
                 }
                 if (member.Role == 2)
                 {
                     HttpContext.Session.SetString("customer", JsonSerializer.Serialize(member));
-                    return RedirectToPage("Register");
+                    return RedirectToPage("/Index");
                 }
             }
             else

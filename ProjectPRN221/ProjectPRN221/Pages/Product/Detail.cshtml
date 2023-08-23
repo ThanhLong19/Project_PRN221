@@ -1,18 +1,32 @@
 ﻿@page
 @model ProjectPRN221.Pages.Product.DetailModel
-@{
-}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 <div style="height:300px; margin-top:50px;">
     <div style="float: left;width: 30%;height: 300px; text-align:center;">
-        <img style="background-color:antiquewhite; width:200px; height:250px; margin: 25px 0;" />
+        <img style="width:200px; height:250px; margin: 25px 0;" src="~/img/1.jpg"/>
     </div>
-    <div style="height: 300px; display:grid;">
-        <div style="margin: 25px 0 0 10px;">Name</div>
-        <div style="margin: 25px 0 0 10px;">Price</div>
-        <div style="margin: 25px 0 0 10px;">Category</div>
+    <div style="height: 300px; display:grid;background-color:aliceblue;" >
+        <div style="margin: 25px 0 0 10px; font-weight:bold;">@Model.Product.ProductName</div>
+        <div style="margin: 25px 0 0 10px;">
+            <span style="font-weight:bold;">
+                Price:
+            </span> 
+            <span>
+                @Model.Product.UnitPrice
+            </span>
+            </div>
+        <div style="margin: 25px 0 0 10px;">
+            <span style="font-weight:bold;">
+                Category:
+            </span>
+            <span>
+                @Model.Product.Category.CategoryName
+            </span>
+            </div>
         <div style="margin: 25px 0 0 10px; display:flex;">
-            <div>
-                Quantity
+            <div style="font-weight:bold;">
+                Quantity:
             </div>
             <form style="margin:0 20px;">
                 <input type='button' value="-"  />
@@ -29,4 +43,10 @@
     Description
 </h4>
 <div style="background-color:antiquewhite; height:300px;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, debitis. Asperiores soluta eveniet eos accusantium doloremque cum suscipit ducimus enim at sapiente mollitia consequuntur dicta quaerat, sunt voluptates autem. Quam!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem illum autem veritatis maxime corporis quod quibusdam nostrum eaque laborum numquam quos unde eveniet aut, exercitationem voluptatum veniam fugiat, debitis esse?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eligendi ratione vitae nobis numquam dolorum assumenda saepe enim cumque blanditiis, deleniti neque voluptate vel ducimus in omnis harum aut nisi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, debitis. Asperiores soluta eveniet eos accusantium doloremque cum suscipit ducimus enim at sapiente mollitia consequuntur dicta quaerat, sunt voluptates autem. Quam!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem illum autem veritatis maxime corporis quod quibusdam nostrum eaque laborum numquam quos unde eveniet aut, exercitationem voluptatum veniam fugiat, debitis esse?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eligendi ratione vitae nobis numquam dolorum assumenda saepe enim cumque blanditiis, deleniti neque voluptate vel ducimus in omnis harum aut nisi.
 </div>
