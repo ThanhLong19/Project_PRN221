@@ -1,0 +1,295 @@
+﻿@page
+@model ProjectPRN221.Pages.Product.ManageModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<style>
+    body {
+        background: white;
+    }
+
+    .page-container {
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+
+    .filter-bar {
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    .row {
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .filter-header {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .filter-bar.expand .filter-header {
+        border-bottom: unset;
+    }
+
+    .sort-selector .sort-label {
+        margin-right: 8px;
+    }
+
+    .sort-selector .dropdown {
+        background: #E0E0E0
+    }
+
+    .filter-bar.expand .filter-header {
+        border-bottom: unset;
+    }
+
+    .filter-collapse-button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 4px 16px;
+        cursor: pointer;
+        border: 1px solid white;
+    }
+
+        .filter-collapse-button i {
+            font-size: 22px;
+        }
+
+    .filter-bar.expand .filter-collapse-button {
+        background-color: #f7f7f7;
+        color: #2c65af;
+        border: 1px solid #f7f7f7;
+    }
+
+    .filter-panel {
+        display: none;
+    }
+
+    .filter-bar.expand .filter-panel {
+        display: flex;
+        background: #f7f7f7;
+        padding: 8px;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    }
+
+    .filter-item {
+        margin-right: 8px;
+    }
+
+    .outline-chip {
+        color: white;
+        outline:
+    }
+
+    .selectable {
+        transition: 1s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+        .selectable:hover {
+            border: 1px solid #72a1d5;
+            color: #2c65af;
+            background-color: #72a1d515;
+        }
+
+            .selectable:hover i {
+                color: #2c65af;
+            }
+
+    .md-chip {
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+        .md-chip span {
+            margin: 0 4px;
+        }
+
+        .md-chip i {
+            margin-right: 4px;
+            color: gray;
+        }
+
+    .md-chip-outline {
+        background-color: white;
+        border: 1px solid #E0E0E0;
+    }
+
+    .dropdown {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        font-size: 13px;
+        padding: 4px 12px;
+        background: white;
+        border: 1px solid #E0E0E0;
+        position: relative;
+        height: 32px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .expanding-dropdown {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        font-size: 13px;
+        padding: 4px 12px;
+        background: white;
+        border: 1px solid #E0E0E0;
+        position: relative;
+        height: 32px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 8px;
+    }
+
+        .expanding-dropdown .md-chip {
+            margin-right: 8px;
+        }
+
+        .expanding-dropdown.expanded {
+            border: unset;
+        }
+
+    .filter-dropdown {
+        border-radius: 16px;
+    }
+
+    .filter-item a {
+        text-decoration: none;
+    }
+
+    .filter-dropdown .dropdown-content {
+        display: none;
+        position: absolute;
+    }
+
+    .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px; /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+    }
+
+    .flex-section {
+        flex: 1;
+    }
+
+    .option {
+        padding: 4px 8px;
+        border: 1px solid white;
+    }
+</style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<div class="page-container">
+    <div class="filter-bar expand">
+        <div class="filter-header">
+            <div class="sort-selector row">
+                <form>
+                    <p>
+                        Product Name: <input type="text" asp-for="SearchString" />
+                        <input type="submit" value="Search" />
+                    </p>
+                </form>
+            </div>
+           
+            <div class="flex-section">
+            </div>
+            <div class="filter-collapse-button selectable">
+                <i class="material-icons">filter_list</i>
+            </div>
+        </div>
+        <div class="filter-panel">
+            @foreach (var i in Model.categories)
+            {
+
+                <div class="filter-item dropdown filter-dropdown">
+                    <a asp-page="/Product/Manage" asp-route-cid="@i.CategoryId">@i.CategoryName</a>
+                </div>
+
+            }
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <p>
+        <h1 style="text-align:center">List of Product</h1>
+    </p>
+    
+    <div class="col-md-9" style="margin-left: auto; margin-right: auto;">
+        <p style="text-align:end">
+        <a asp-page="Create">Create New</a>
+    </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>OrderID</th>
+                    <th>Product Name</th>
+                    <th>Category Name</th>
+                    <th>Unit Price</th>
+                    <th>Units In Stock</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var prod in Model.products)
+                {
+                    <tr>
+                        <td>@prod.ProductId</td>
+                        <td>@prod.ProductName</td>
+                        <td>@prod.Category.CategoryName</td>
+                        <td>@prod.UnitPrice</td>
+                        <td>@prod.UnitsInStock</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@prod.ProductId">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@prod.ProductId">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@prod.ProductId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+
+    var filter_bar = document.querySelector('.filter-bar');
+    var filter_header = document.querySelector('.filter-header');
+    var filter_collapse_button = document.querySelector('.filter-collapse-button');
+
+    filter_collapse_button.addEventListener('click', function () {
+        filter_bar.classList.toggle('expand');
+    })
+</script>
