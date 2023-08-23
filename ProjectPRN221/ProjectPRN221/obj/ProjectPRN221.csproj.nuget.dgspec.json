@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj": {}
+    "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj": {}
   },
   "projects": {
-    "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj": {
+    "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
+        "projectUniqueName": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
         "projectName": "ProjectPRN221",
-        "projectPath": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
-        "packagesPath": "C:\\Users\\longb\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectPRN221Block\\ProjectPRN221\\ProjectPRN221\\obj\\",
+        "projectPath": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\ProjectPRN221.csproj",
+        "packagesPath": "C:\\Users\\Long\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Long\\Documents\\GitHub\\Project_PRN221\\ProjectPRN221\\ProjectPRN221\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\longb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Long\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

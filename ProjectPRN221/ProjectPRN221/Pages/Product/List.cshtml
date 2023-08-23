@@ -56,10 +56,21 @@
     </div>
 </div>
 
-<div style="text-align:center; display:flex; justify-content:center;">
-    <div style="background-color:antiquewhite; height:30px; width:30px; margin:5px">1</div>
-    <div style="background-color:antiquewhite; height:30px; width:30px; margin:5px">2</div>
-    <div style="background-color:antiquewhite; height:30px; width:30px; margin:5px">3</div>
-    <div style="background-color:antiquewhite; height:30px; width:30px; margin:5px">4</div>
+<div class="pagination" style="justify-content:center;">
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= Math.Ceiling(Model.TotalItems / (double)Model.PageSize); i++)
+            {
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" href="@Url.Page("List", 
+                    new { pageNumber = i,
+                        nameSearch = Request.Query["nameSearch"],
+                        minPrice = Request.Query["minPrice"],
+                        maxPrice = Request.Query["maxPrice"],
+                        categoryId = Request.Query["categoryId"] })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
 </div>
 
