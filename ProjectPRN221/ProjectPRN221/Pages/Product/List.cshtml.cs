@@ -19,26 +19,45 @@ namespace ProjectPRN221.Pages.Product
         {
             _context = context;
         }
+        public int PageIndex { get; set; }
+        public int PageSize { get; set; }
+        public int TotalItems { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string? nameSearch, decimal? minPrice, decimal? maxPrice, int? categoryId)
+        public async Task<IActionResult> OnGetAsync(string? nameSearch, decimal? minPrice, decimal? maxPrice, int? categoryId, int? pageNumber)
         {
             Categories = await _context.Categories.ToListAsync();
+
+            PageSize = 8;
+            PageIndex = pageNumber ?? 1;
             IQueryable<Models.Product> query = _context.Products.Where(p => p.UnitsInStock > 0);
-            if (nameSearch != null)
+
+            if (!string.IsNullOrEmpty(nameSearch))
             {
                 query = query.Where(p => p.ProductName.Contains(nameSearch));
             }
 
-            if (minPrice.HasValue && maxPrice.HasValue)
+            if (minPrice.HasValue)
             {
-                query = query.Where(p => (p.UnitPrice >= minPrice && p.UnitPrice <= maxPrice));
+                query = query.Where(p => p.UnitPrice >= minPrice.Value);
+            }
+
+            if (maxPrice.HasValue)
+            {
+                query = query.Where(p => p.UnitPrice <= maxPrice.Value);
             }
 
             if (categoryId.HasValue && categoryId.Value != 0)
             {
-                query = query.Where(p => p.Category.CategoryId == categoryId);
+                query = query.Where(p => p.Category.CategoryId == categoryId.Value);
             }
-            Products = await query.ToListAsync();
+
+            TotalItems = await query.CountAsync();
+
+            Products = await query
+                .Skip((PageIndex - 1) * PageSize)
+                .Take(PageSize)
+                .ToListAsync();
+
             return Page();
         }
     }
