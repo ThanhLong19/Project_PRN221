@@ -11,8 +11,8 @@ namespace ProjectPRN221.Helpers
             {
                 var credential = new NetworkCredential
                 {
-                    UserName = "",
-                    Password = ""
+                    UserName = "hlongriot2301@gmail.com",
+                    Password = "fsjhzewotfakgeys"
                 };
                 smtp.Credentials = credential;
                 smtp.Host = "smtp.gmail.com";
@@ -24,7 +24,7 @@ namespace ProjectPRN221.Helpers
                 message.Subject = "New password";
                 message.Body = body;
                 message.IsBodyHtml = true;
-                message.From = new MailAddress("");
+                message.From = new MailAddress("hlongriot2301@gmail.com");
                 await smtp.SendMailAsync(message);
             }
         }
