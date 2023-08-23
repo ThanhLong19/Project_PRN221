@@ -42,3 +42,26 @@ body {
     text-decoration:none;
     color:black;
 }
+
+.div_h{
+    margin-top: 50px;
+    text-align:center;
+}
+.div_account_profile {
+    height: 700px;
+    margin-top: 50px;
+}
+.div_account_profile_img {
+    background-color: antiquewhite;
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+.div_account_profile_infor {
+    display: flex;
+    justify-content: space-around;
+}
+.div_account_profile_infor_element {
+    margin-top: 40px;
+}
