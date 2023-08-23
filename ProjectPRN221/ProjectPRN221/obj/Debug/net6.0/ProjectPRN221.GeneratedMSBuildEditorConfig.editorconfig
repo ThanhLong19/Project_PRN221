@@ -24,8 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/Checkout.cshtml]
@@ -34,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/RemoveCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxSZW1vdmVDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Error.cshtml]
@@ -54,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Product/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_ValidationScriptsPartial.cshtml]
