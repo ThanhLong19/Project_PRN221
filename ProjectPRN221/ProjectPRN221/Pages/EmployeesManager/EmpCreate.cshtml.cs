@@ -9,6 +9,7 @@ namespace ProjectPRN221.Pages.EmployeesManager
     {
         private readonly NorthwindContext _context;
         [BindProperty]
+        
         public Employee employee { get; set; }
 
        
@@ -23,10 +24,10 @@ namespace ProjectPRN221.Pages.EmployeesManager
         }
         public async Task<IActionResult> OnPostAsync()
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    return Page();
-            //}
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
 
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();

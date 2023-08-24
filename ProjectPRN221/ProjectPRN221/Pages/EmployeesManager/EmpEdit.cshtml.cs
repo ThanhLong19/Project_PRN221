@@ -28,6 +28,10 @@ namespace ProjectPRN221.Pages.EmployeesManager
         }
         public async Task<IActionResult> OnPostAsync()
         {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
             _context.Employees.Update(Employee);
             _context.SaveChanges();
             return RedirectToPage("Index");
