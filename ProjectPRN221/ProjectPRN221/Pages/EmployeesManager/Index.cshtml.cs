@@ -19,8 +19,8 @@ namespace ProjectPRN221.Pages.EmployeesManager
         [HttpGet]
         public async Task<IActionResult> OnGetAsync(int? pageNumber)
         {
-            int pageSize = 3; // Số lượng items trên mỗi trang
-            int pageNumbers = pageNumber ?? 1; // Trang hiện tại, nếu không có thì mặc định là 1
+            int pageSize = 3; 
+            int pageNumbers = pageNumber ?? 1; 
 
             ListEmployee = await _context.Employees.ToPagedListAsync(pageNumbers, pageSize);
 
