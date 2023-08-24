@@ -1,4 +1,6 @@
-﻿@page
+﻿@page "{pageNumber:int?}"
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
 @model ProjectPRN221.Pages.EmployeesManager.IndexModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
@@ -59,4 +61,7 @@
         }
     </tbody>
 </table>
+<div>
+    @Html.PagedListPager(Model.ListEmployee, page => Url.Page("Index", new { pageNumber = page }), new PagedListRenderOptions { LiElementClasses = new[] { "page-item" }, PageClasses = new[] { "page-link" } })
+</div>
 

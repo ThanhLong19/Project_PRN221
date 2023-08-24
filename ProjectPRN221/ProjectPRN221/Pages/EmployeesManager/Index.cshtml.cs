@@ -1,7 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ProjectPRN221.Models;
+using X.PagedList;
 
 
 namespace ProjectPRN221.Pages.EmployeesManager
@@ -10,16 +11,19 @@ namespace ProjectPRN221.Pages.EmployeesManager
     {
         private readonly NorthwindContext _context;
         [BindProperty]
-        public List<Employee> ListEmployee { get; set; }
+        public IPagedList<Employee> ListEmployee { get; set; }
         public IndexModel(NorthwindContext context)
         {
             _context = context;
         }
         [HttpGet]
-        public async Task<IActionResult> OnGetAsync()
+        public async Task<IActionResult> OnGetAsync(int? pageNumber)
         {
-            ListEmployee = await _context.Employees.ToListAsync();
-             
+            int pageSize = 3; // Số lượng items trên mỗi trang
+            int pageNumbers = pageNumber ?? 1; // Trang hiện tại, nếu không có thì mặc định là 1
+
+            ListEmployee = await _context.Employees.ToPagedListAsync(pageNumbers, pageSize);
+
             return Page();
         }
         public async Task<IActionResult> OnPostDeleteAsync(int id)
