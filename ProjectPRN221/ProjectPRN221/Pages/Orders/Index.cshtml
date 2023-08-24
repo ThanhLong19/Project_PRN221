@@ -1,0 +1,63 @@
+﻿@page
+@model ProjectPRN221.Pages.Orders.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+}
+
+<div class="div_account_profile">
+    <div class="div_h">
+        <h3>Orders History</h3>
+    </div>
+    <div>
+        <table class="table" style="margin-top:50px;">
+            <tr style="background-color:antiquewhite;">
+                <th>OrderID</th>
+                <th>Employee</th>
+                <th>OrderDate</th>
+                <th>ShippedDate</th>
+                <th>Freight</th>
+                <th>ShipName</th>
+                <th>ShipAddress</th>
+            </tr>
+            @foreach (var o in Model.Orders)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="/Orders/Detail" asp-route-orderId="@o.OrderId">
+                            @o.OrderId
+                        </a>
+                    </td>
+                    @if(o.EmployeeId != null)
+                    {
+                        <td>@o.Employee.FirstName @o.Employee.LastName</td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                    <td>@o.OrderDate.Value.ToShortDateString()</td>
+                    <td>@o.ShippedDate.Value.ToShortDateString()</td>
+                    <td>@o.Freight</td>
+                    <td>@o.ShipName</td>
+                    <td>@o.ShipAddress</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<div class="pagination" style="justify-content:center;">
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= Math.Ceiling(Model.TotalItems / (double)Model.PageSize); i++)
+            {
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" href="@Url.Page("Index",
+                    new { pageNumber = i,
+                        orderId = Request.Query["orderId"],
+                        })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
