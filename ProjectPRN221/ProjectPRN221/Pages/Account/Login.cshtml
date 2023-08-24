@@ -15,16 +15,29 @@
         </div>
         <div style="margin: 20px 20px;">
             <label for="password">Password</label>
-            <input asp-for="Account.Password" type="password" style="width: 100%" />
+            <input id="passwordInput" asp-for="Account.Password" type="password" style="width: 100%" />
+        </div>
+        <div style="margin: 20px 20px;">
+            <input type="checkbox" id="showPasswordCheckbox">
+            <label style="font-family:Courier new;" for="showPasswordCheckbox">Show password</label>
         </div>
         <div style ="margin: 30px 20px;">
             <input type="submit" value="Login" style="width: 100%" class="btn btn-success" />
-        </div>
-        <div style="margin: 20px 20px;">
-            <input type="checkbox" />  Remember me
         </div>
         <div style="margin: 20px 20px;">
             <a asp-area="" asp-page="/Account/ForgotPassword">Forget password?</a>
         </div>
     </form>
 </div>
+<script>
+    var showPasswordCheckbox = document.getElementById("showPasswordCheckbox");
+    var passwordInput = document.getElementById("passwordInput");
+
+    showPasswordCheckbox.addEventListener('change', function () {
+        if (this.checked) {
+            passwordInput.type = "text";
+        } else {
+            passwordInput.type = "password";
+        }
+    });
+</script>
