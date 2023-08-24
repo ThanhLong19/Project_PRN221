@@ -9,97 +9,117 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectPRN221
 build_property.RootNamespace = ProjectPRN221
-build_property.ProjectDir = D:\Study\Sum23\PRN221\Project_1\ProjectPRN221\ProjectPRN221\
+build_property.ProjectDir = D:\ProjectPRN221Block\ProjectPRN221\ProjectPRN221\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Study\Sum23\PRN221\Project_1\ProjectPRN221\ProjectPRN221
+build_property.MSBuildProjectDirectory = D:\ProjectPRN221Block\ProjectPRN221\ProjectPRN221
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Account/ForgotPassword.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Account/Login.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Account/Logout.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Account/Profile.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Account/Register.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Cart/Cart.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Admin/Order/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cT3JkZXJcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Admin/Order/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cT3JkZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Cart/Checkout.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Cart/Index.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Cart/RemoveCart.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Cart/RemoveCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxSZW1vdmVDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Error.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Index.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Privacy.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Product/Add.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Product/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Product/Detail.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Product/List.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Product/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Product/Manage.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Product/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxNYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Product/Update.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Shared/_Layout1.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_Layout1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/_ViewImports.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/_ViewStart.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Sum23/PRN221/Project_1/ProjectPRN221/ProjectPRN221/Pages/Shared/_Layout.cshtml]
+[D:/ProjectPRN221Block/ProjectPRN221/ProjectPRN221/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sbhr5m50l9

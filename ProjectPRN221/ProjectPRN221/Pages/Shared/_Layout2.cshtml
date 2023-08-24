@@ -23,10 +23,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Product/List">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Cart/Index">Cart</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Order/List">List Orders</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Account/Profile">Profile</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Account/Profile">Employee</a>
                         </li>
                     </ul>
                 </div>
@@ -34,16 +34,16 @@
                     <ul class="navbar-nav flex-grow-1">
                         @if (Context.Session.GetString("admin") != null || Context.Session.GetString("customer") != null)
                         {
-                            var acc = JsonSerializer.Deserialize<Models.Account>(Context.Session.GetString("customer"));
+                            var acc = JsonSerializer.Deserialize<Models.Account>(Context.Session.GetString("admin"));
                             <li class="nav-item">
-                            <span style="color: red">Welcome: @acc.Email</span>
+                                <span style="color: red">Welcome, @acc.Email</span>
                             </li>
                             <li><a style="margin-left:10px" href="~/Account/Logout">SignOut</a></li>
                         }
                         else
                         {
                             <li><a class="nav-link text-dark" href="~/Account/Login">LOGIN</a></li>
-                            <li><a class ="nav-link text-dark" href="~/Account/Register">REGISTER</a></li>
+                            <li><a class="nav-link text-dark" href="~/Account/Register">REGISTER</a></li>
                         }
                     </ul>
                 </div>

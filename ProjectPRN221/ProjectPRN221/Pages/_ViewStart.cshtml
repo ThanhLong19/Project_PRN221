@@ -3,6 +3,10 @@
     {
         Layout = "_Layout1";
     }
+    else if (Context.Session.GetString("admin") != null)
+    {
+        Layout = "_Layout2";
+    }
     else
     {
         Layout = "_Layout";
