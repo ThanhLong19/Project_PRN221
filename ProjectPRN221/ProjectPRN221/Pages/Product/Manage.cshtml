@@ -219,7 +219,9 @@
     </script>
     Model.mesString = null;
 }
-
+@{
+    var selected= 1;
+}
 <div class="page-container">
     <div class="filter-bar expand">
         <div class="filter-header">
@@ -294,6 +296,19 @@
     </div>
 </div>
 
+<div class="pagination" style="justify-content:center;">
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= Math.Ceiling(Model.TotalItems / (double)Model.PageSize); i++)
+            {
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" href="@Url.Page("Manage",
+                    new { pageNumber = i })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
 <script>
 
     var filter_bar = document.querySelector('.filter-bar');

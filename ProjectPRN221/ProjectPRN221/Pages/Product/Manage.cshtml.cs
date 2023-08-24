@@ -17,7 +17,9 @@ namespace ProjectPRN221.Pages.Product
         public string? SearchString { get; set; }
         [BindProperty]
         public string? mesString { get; set; }
-
+        public int PageIndex { get; set; }
+        public int PageSize { get; set; }
+        public int TotalItems { get; set; }
 
         public ManageModel(NorthwindContext db)
         {
@@ -25,7 +27,7 @@ namespace ProjectPRN221.Pages.Product
         }
 
 
-        public async Task<IActionResult> OnGetAsync(int? cid, string? mes)
+        public async Task<IActionResult> OnGetAsync(int? cid, string? mes, int? pageNumber)
         {
             if (!String.IsNullOrEmpty(mes))
                 mesString = mes;
@@ -40,6 +42,13 @@ namespace ProjectPRN221.Pages.Product
 
             if (HttpContext.Session.GetString("admin") != null)
             {
+
+                PageSize = 8;
+                PageIndex = pageNumber ?? 1;
+                TotalItems = await prod.CountAsync();
+
+
+
                 if (!string.IsNullOrEmpty(SearchString))
                 {
                     prod = prod.Where(s => s.ProductName.Contains(SearchString));
@@ -55,8 +64,10 @@ namespace ProjectPRN221.Pages.Product
                     prod = prod.Where(s => s.Category.CategoryId == cid && s.Category.CategoryId == cid);
                 }
 
-                products = await prod.ToListAsync();
-
+                products = await prod
+                    .Skip((PageIndex - 1) * PageSize)
+                    .Take(PageSize)
+                    .ToListAsync();
                 return Page();
             }
             return RedirectToPage("../Account/Login");
