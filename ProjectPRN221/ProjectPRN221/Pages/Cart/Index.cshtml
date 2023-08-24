@@ -1,13 +1,18 @@
 ﻿@page
 @model ProjectPRN221.Pages.Cart.IndexModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-    @{
+@{
     var orders = Cookies.Class.GetCartInfo(HttpContext);
 }
 
 
 <div style="margin-top:50px;">
-    @foreach(var i in orders.Values)
+    @if (this.ViewBag.Error != null)
+    {
+        <p style="color:red;text-align:center">@ViewBag.Error</p>
+    }
+
+    @foreach (var i in orders.Values)
     {
         <div style="background-color:antiquewhite; height:100px; margin-top:10px; display:flex; align-items:center;">
             <div style="width:10%; text-align:center;">
@@ -20,23 +25,26 @@
                 @i.Product.UnitPrice
             </div>
             <div style="width:20%;">
-                <form style="margin:0 20px; text-align:center;">
-                    <input type='button' value="-" />
-                    <input type='text' value="@i.Quantity" style="width:60px; text-align:center;" />
-                    <input type='button' value="+" />
+                <form style="margin:0 20px; text-align:center;" id="changeForm-@i.ProductId" method="post" asp-page-handler="ChangeQuantity">
+                    <input name="productId" value="@i.ProductId" hidden />
+                    <input type='number' min="1" value="@i.Quantity" name="quantity" style="width:60px; text-align:center;" onchange="document.getElementById('changeForm-@i.ProductId').submit()" />
                 </form>
             </div>
             <div style="width:20%;text-align:center;">
-                <input asp-route-id="/Cart/RemoveCart?productId="@i.ProductId"" type="submit" value="Delete" class="btn btn-success" />
+                <form method="post" asp-page-handler="Delete">
+                    <input name="productId" value="@i.ProductId" hidden />
+                    <input type="submit" value="Delete" class="btn btn-success" />
+                </form>
+
             </div>
         </div>
     }
 </div>
 <div style="margin-top:50px;">
     <h5>
-        Total:@ViewBag["TotalAmount"]
+        Total:@ViewBag.totalAmount
     </h5>
     <div>
-        <a asp-page="/Cart/Checkout" class="btn btn-success">Checkout</a>
+        <a asp-page="../Cart/Checkout" class="btn btn-success">Checkout</a>
     </div>
 </div>
