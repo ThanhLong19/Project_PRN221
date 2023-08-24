@@ -1,0 +1,113 @@
+﻿@page
+@model ProjectPRN221.Pages.ChartControl.ChartModel
+
+<canvas id="myChart" width="400" height="160"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>*@
+
+<div>
+    <label for="yearSelector">Select Year:</label>
+    <select id="yearSelector" onchange="updateChart()" >
+        @foreach (var year in Model.AvailableYears)
+        {
+            <option value="@year">@year</option>
+        }
+    </select>
+</div>
+
+@*<script>
+    function createChart() {
+        const ctx = document.getElementById('myChart');
+        const selectedYear = document.getElementById('yearSelector').value;
+
+        return new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.Months)),
+                datasets: [{
+                    label: 'Revenue',
+                    data: @Html.Raw(Json.Serialize(Model.Revenue)),
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+
+    function updateChart() {
+        if (chart) {
+            chart.destroy();
+        }
+        chart = createChart();
+    }
+
+    var chart = createChart();
+</script>
+*@
+
+<script>
+    var ctx = document.getElementById('myChart');
+    var chart;
+
+    function createChart(labels, data) {
+        return new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Revenue',
+                    data: data,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+
+    function updateChart(selectedYear) {
+        const headers = new Headers();
+        headers.append('X-Requested-With', 'XMLHttpRequest');
+
+        fetch(`?handler=OnGetAsync&selectedYear=${selectedYear}`, { headers })
+            .then(response => response.json())
+            .then(data => {
+                if (chart) {
+                    chart.destroy();
+                }
+                chart = createChart(data.months, data.revenue);
+            });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        chart = createChart(@Html.Raw(Json.Serialize(Model.Months)), @Html.Raw(Json.Serialize(Model.Revenue)));
+
+        document.getElementById('yearSelector').addEventListener('change', function () {
+            const selectedYear = this.value;
+            updateChart(selectedYear);
+        });
+    });
+</script>
+

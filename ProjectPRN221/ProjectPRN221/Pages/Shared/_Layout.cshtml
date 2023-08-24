@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ProjectPRN221</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProjectPRN221.styles.css" asp-append-version="true" />
+  
 </head>
 <body>
     <header>
@@ -23,6 +25,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Cart/Index">Cart</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" asp-page="/ChartControl/Chart">Sales Chart</a>
                         </li>
                     </ul>
                 </div>

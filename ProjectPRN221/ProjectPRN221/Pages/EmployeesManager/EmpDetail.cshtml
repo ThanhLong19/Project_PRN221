@@ -1,0 +1,59 @@
+﻿@page "{id:int}"
+@model ProjectPRN221.Pages.EmployeesManager.EmpDetailModel
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Employee Detail";
+}
+<link rel="stylesheet" href="~/css/empDetails.css" />
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="employee-table">
+    <tr>
+        <th>Employee ID:</th>
+        <td>@Model.employee.EmployeeId</td>
+        <th>Last Name:</th>
+        <td>@Model.employee.LastName</td>
+    </tr>
+    <tr>
+        <th>First Name:</th>
+        <td>@Model.employee.FirstName</td>
+        <th>Title:</th>
+        <td>@Model.employee.Title</td>
+    </tr>
+    <tr>
+        <th>Title of Courtesy:</th>
+        <td>@Model.employee.TitleOfCourtesy</td>
+        <th>Birth Date:</th>
+        <td>@Model.employee.BirthDate</td>
+    </tr>
+    <tr>
+        <th>Hire Date:</th>
+        <td>@Model.employee.HireDate</td>
+        <th>Address:</th>
+        <td>@Model.employee.Address</td>
+    </tr>
+    <tr>
+        <th>City:</th>
+        <td>@Model.employee.City</td>
+        <th>Region:</th>
+        <td>@Model.employee.Region</td>
+    </tr>
+    <tr>
+        <th>Postal Code:</th>
+        <td>@Model.employee.PostalCode</td>
+        <th>Country:</th>
+        <td>@Model.employee.Country</td>
+    </tr>
+    <tr>
+        <th>Home Phone:</th>
+        <td>@Model.employee.HomePhone</td>
+        <th>Extension:</th>
+        <td>@Model.employee.Extension</td>
+    </tr>
+</table>
+<a asp-page="Index">Back to List</a>
+
