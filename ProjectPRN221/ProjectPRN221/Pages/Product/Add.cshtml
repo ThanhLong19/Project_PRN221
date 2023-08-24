@@ -3,39 +3,75 @@
 @{
 }
 
-@*<div style="margin:0px auto; width:70%">
+<div style="margin:0px auto; width:70%">
     <p>
-        <h1 style="text-align:center">Create a new Employee</h1>
+        <h1 style="text-align:center">Add new Product</h1>
     </p>
 
     <form method="post">
         <table>
             <tr>
-                <td>Employee Name(*)</td>
+                <td>Product Name(*)</td>
                 <td>
                     <input asp-for="product.ProductName" />
                     <span asp-validation-for="product.ProductName"></span>
                 </td>
             </tr>
             <tr>
-                <td>Employee Dob</td>
+                <td>QuantityPerUnit</td>
                 <td>
-                    <input asp-for="product.DoB" />
+                    <input asp-for="product.QuantityPerUnit" />
+                    <span asp-validation-for="product.QuantityPerUnit"></span>
                 </td>
             </tr>
             <tr>
-                <td>Employee Gender</td>
+                <td>Supplier</td>
                 <td>
-                    <input type="radio" asp-for="employees.Gender" value="true" />Male
-                    <input type="radio" asp-for="employees.Gender" value="false" />Female
-                </td>
-            </tr>
-            <tr>
-                <td>City Name</td>
-                <td>
-                    <select asp-for="employees.City" asp-items="ViewBag.CityId"></select>
+                    <select asp-for="product.SupplierId" asp-items="ViewBag.SuppliersId"></select>
                 </td>
 
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>
+                    <select asp-for="product.CategoryId" asp-items="ViewBag.CategoriesId"></select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>UnitPrice</td>
+                <td>
+                    <input asp-for="product.UnitPrice" />
+                    <span asp-validation-for="product.UnitPrice"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>UnitsOnOrder</td>
+                <td>
+                    <input asp-for="product.UnitsOnOrder" />
+                    <span asp-validation-for="product.UnitsOnOrder"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>ReorderLevel</td>
+                <td>
+                    <input asp-for="product.ReorderLevel" />
+                    <span asp-validation-for="product.ReorderLevel"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Discontinued</td>
+                <td>
+                    <input asp-for="product.Discontinued" />
+                    <span asp-validation-for="product.Discontinued"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>
+                    <textarea id="descriptionEditor" asp-for="product.Description"> </textarea>
+                    <span asp-validation-for="product.Description"></span>
+                </td>
             </tr>
             <tr>
                 <td colspan="2">
@@ -45,4 +81,7 @@
             </tr>
         </table>
     </form>
-</div>*@
+</div>
+<script src="~/js/ckeditor/ckeditor.js"></script>
+<script src="~/lib/ckeditor/adapters/jquery.js"></script>
+<script>CKEDITOR.replace('descriptionEditor');</script>
