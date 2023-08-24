@@ -34,12 +34,8 @@
                 <input type='button' value="+"  />
             </form>
         </div>
-        <div>
-            @if (HttpContext.Session.GetString("admin") == null)
-            {
-                <input type="submit" value="Add to cart" style="margin: 25px 0 0 10px;" />
-            }
-            
+        <div>  
+                <a asp-page="/Cart/AddToCart" asp-route-productId="@Model.Product.ProductId" style="margin: 25px 0 0 10px;">Add to cart</a>   
         </div>
     </div>
 </div>

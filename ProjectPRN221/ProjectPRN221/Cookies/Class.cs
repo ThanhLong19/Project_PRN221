@@ -29,7 +29,7 @@ namespace ProjectPRN221.Cookies
 
         public static Account GetAccountFromSession(ISession session)
         {
-            string accountString = session.GetString("CustSession");
+            string accountString = session.GetString("customer");
             if (accountString != null)
             {
                 return JsonSerializer.Deserialize<Account>(accountString);
