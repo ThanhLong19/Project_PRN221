@@ -60,7 +60,7 @@ namespace ProjectPRN221.Pages.Product
                 prod.Description = product.Description;
 
                 await db.SaveChangesAsync();
-                return RedirectToPage("Manage");
+                return Redirect("Detail?pid="+id);
 
 
                 //}
