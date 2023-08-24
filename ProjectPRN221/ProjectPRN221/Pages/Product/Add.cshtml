@@ -1,0 +1,48 @@
+﻿@page
+@model ProjectPRN221.Pages.Product.AddModel
+@{
+}
+
+<div style="margin:0px auto; width:70%">
+    <p>
+        <h1 style="text-align:center">Create a new Employee</h1>
+    </p>
+
+    <form method="post">
+        <table>
+            <tr>
+                <td>Employee Name(*)</td>
+                <td>
+                    <input asp-for="product.ProductName" />
+                    <span asp-validation-for="product.ProductName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Employee Dob</td>
+                <td>
+                    <input asp-for="product.DoB" />
+                </td>
+            </tr>
+            <tr>
+                <td>Employee Gender</td>
+                <td>
+                    <input type="radio" asp-for="employees.Gender" value="true" />Male
+                    <input type="radio" asp-for="employees.Gender" value="false" />Female
+                </td>
+            </tr>
+            <tr>
+                <td>City Name</td>
+                <td>
+                    <select asp-for="employees.City" asp-items="ViewBag.CityId"></select>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input value="Save" type="submit" />
+                    <input value="Clear" type="reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
