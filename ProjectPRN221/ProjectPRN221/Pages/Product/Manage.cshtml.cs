@@ -15,38 +15,51 @@ namespace ProjectPRN221.Pages.Product
         public List<Category> categories { set; get; }
         [BindProperty(SupportsGet = true)]
         public string? SearchString { get; set; }
+        [BindProperty]
+        public string? mesString { get; set; }
+
+
         public ManageModel(NorthwindContext db)
         {
             this.db = db;
         }
-        public async Task<IActionResult> OnGetAsync(int? cid)
+
+
+        public async Task<IActionResult> OnGetAsync(int? cid, string? mes)
         {
+            if (!String.IsNullOrEmpty(mes))
+                mesString = mes;
+            else
+            {
+                mesString = null;
+            }
+
             categories = await db.Categories.ToListAsync();
 
             var prod = from m in db.Products select m;
 
-            //if (HttpContext.Session.GetString("Account") != null)
-            //{
-            if (!string.IsNullOrEmpty(SearchString))
+            if (HttpContext.Session.GetString("admin") != null)
             {
-                prod = prod.Where(s => s.ProductName.Contains(SearchString));
+                if (!string.IsNullOrEmpty(SearchString))
+                {
+                    prod = prod.Where(s => s.ProductName.Contains(SearchString));
+                }
+
+                if (cid != null)
+                {
+                    prod = prod.Where(s => s.Category.CategoryId == cid);
+                }
+
+                if (!string.IsNullOrEmpty(SearchString) && cid != null)
+                {
+                    prod = prod.Where(s => s.Category.CategoryId == cid && s.Category.CategoryId == cid);
+                }
+
+                products = await prod.ToListAsync();
+
+                return Page();
             }
-
-            if (cid != null)
-            {
-                prod = prod.Where(s => s.Category.CategoryId == cid);
-            }
-
-            if (!string.IsNullOrEmpty(SearchString) && cid != null)
-            {
-                prod = prod.Where(s => s.Category.CategoryId == cid && s.Category.CategoryId == cid);
-            }
-
-            products = await prod.ToListAsync();
-
-            return Page();
-            //}
-            //return RedirectToPage("../Login");
+            return RedirectToPage("../Account/Login");
         }
     }
 }
