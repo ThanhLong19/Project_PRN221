@@ -7,37 +7,46 @@
 <div class="div_account_profile">
     <div class="div_account_profile_img">
         <img src="~/img/1.jpg" style="height: 350px;width: 80%;margin-top: 20px;" />
-        <div style="margin-top:20px;">Welcome, cus@gmail.com</div>
+        <div style="margin-top:20px;">Welcome, @Model.account.Email</div>
     </div>
+    <form method="post">
     <div style="background-color:aliceblue; height:500px;">
         <div class="div_account_profile_infor">
             <div class="div_account_profile_infor_element">
                 <div>Email:</div>
-                <input />
-            </div>
+                <input disabled asp-for="account.Email" /><br />
+                <div class="div_account_profile_infor_element">
+                    <div>Phone:</div>
+                    <input type="text" asp-for="account.Customer.Phone" /><br />
+                </div>
+        </div>
+
             <div class="div_account_profile_infor_element">
                 <div >
                     <div>Company name:</div>
-                    <input />
+                    <input type="text" asp-for="account.Customer.CompanyName" /><br />
                 </div>
                 <div class="div_account_profile_infor_element">
                     <div>Contact name:</div>
-                    <input />
+                    <input type="text" asp-for="account.Customer.ContactName" /><br />
                 </div>
             </div>
             <div class="div_account_profile_infor_element">
                 <div>
-                    <div>Company name:</div>
-                    <input />
+                    <div>Contact Title:</div>
+                    <input type="text" asp-for="account.Customer.ContactTitle" /><br />
                 </div>
                 <div class="div_account_profile_infor_element">
-                    <div>Contact name:</div>
-                    <input />
+                    <div>Address:</div>
+                    <input type="text" asp-for="account.Customer.Address" /><br />
                 </div>
             </div>
         </div>
         <div class ="div_h">
             <input type="submit" class="btn btn-success"/>
         </div>
+            <span class="msg-error">@ViewData["fail"]</span><br />
+            <span class="msg-success">@ViewData["success"]</span><br />
     </div>
+    </form>
 </div>
