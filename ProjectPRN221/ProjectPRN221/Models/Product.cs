@@ -23,8 +23,8 @@ namespace ProjectPRN221.Models
         public string? Description { get; set; }
         public byte[]? Picture { get; set; }
 
-        public virtual Category Category { get; set; }
-        public virtual Supplier Supplier { get; set; }
-        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual Category? Category { get; set; }
+        public virtual Supplier? Supplier { get; set; }
+        public virtual ICollection<OrderDetail>? OrderDetails { get; set; }
     }
 }

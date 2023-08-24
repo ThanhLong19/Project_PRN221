@@ -2,3 +2,80 @@
 @model ProjectPRN221.Pages.Product.UpdateModel
 @{
 }
+
+<div style="margin:0px auto; width:70%">
+    <p>
+        <h1 style="text-align:center">Update Product</h1>
+    </p>
+
+    <form method="post">
+        <table>
+            <tr>
+                <td>Product Name(*)</td>
+                <td>
+                    <input asp-for="product.ProductName" />
+                    <span asp-validation-for="product.ProductName"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Supplier</td>
+                <td>
+                    <select asp-for="product.SupplierId" asp-items="ViewBag.SuppliersId"></select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>
+                    <select asp-for="product.CategoryId" asp-items="ViewBag.CategoriesId"></select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>QuantityPerUnit</td>
+                <td>
+                    <input asp-for="product.QuantityPerUnit" />
+                    <span asp-validation-for="product.QuantityPerUnit"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>UnitPrice</td>
+                <td>
+                    <input asp-for="product.UnitPrice" />
+                    <span asp-validation-for="product.UnitPrice"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>UnitPrice</td>
+                <td>
+                    <input asp-for="product.UnitsInStock" />
+                    <span asp-validation-for="product.UnitsInStock"></span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Discontinued</td>
+                <td>
+                    <input asp-for="product.Discontinued" />
+                    <span asp-validation-for="product.Discontinued"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>
+                    <textarea id="descriptionEditor" asp-for="product.Description" value="product.Description"> </textarea>
+                    <span asp-validation-for="product.Description"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input value="Save" type="submit" onclick="return confirm('Are you sure you want to Update?');" />
+                    <input value="Clear" type="reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script src="~/js/ckeditor/ckeditor.js"></script>
+<script src="~/lib/ckeditor/adapters/jquery.js"></script>
+<script>CKEDITOR.replace('descriptionEditor');</script>

@@ -211,6 +211,15 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
+
+@if (Model.mesString != null)
+{
+    <script>
+        alert('@Model.mesString');
+    </script>
+    Model.mesString = null;
+}
+
 <div class="page-container">
     <div class="filter-bar expand">
         <div class="filter-header">
@@ -249,16 +258,17 @@
     
     <div class="col-md-9" style="margin-left: auto; margin-right: auto;">
         <p style="text-align:end">
-        <a asp-page="Create">Create New</a>
+        <a asp-page="Add">Add New</a>
     </p>
         <table class="table">
             <thead>
                 <tr>
-                    <th>OrderID</th>
+                    <th>ProductID</th>
                     <th>Product Name</th>
                     <th>Category Name</th>
                     <th>Unit Price</th>
                     <th>Units In Stock</th>
+                    @*<th>Des</th>*@
                     <th></th>
                 </tr>
             </thead>
@@ -271,10 +281,11 @@
                         <td>@prod.Category.CategoryName</td>
                         <td>@prod.UnitPrice</td>
                         <td>@prod.UnitsInStock</td>
+                        @*<td>@Html.Raw(prod.Description)</td>*@
                         <td>
-                            <a asp-page="./Edit" asp-route-id="@prod.ProductId">Edit</a> |
-                            <a asp-page="./Details" asp-route-id="@prod.ProductId">Details</a> |
-                            <a asp-page="./Delete" asp-route-id="@prod.ProductId">Delete</a>
+                            <a asp-page="./Update" asp-route-id="@prod.ProductId">Update</a> |
+                            <a asp-page="./Detail" asp-route-pid="@prod.ProductId">Details</a> |
+                            <a asp-page="./Delete" asp-route-idDelete="@prod.ProductId" onclick="return confirm('Are you sure you want to delete @prod.ProductName ?');">Delete</a>
                         </td>
                     </tr>
                 }
