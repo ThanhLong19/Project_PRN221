@@ -2,3 +2,44 @@
 @model ProjectPRN221.Pages.Cart.CheckoutModel
 @{
 }
+<h4>Checkout</h4>
+<hr />
+<form method="post" asp-page-handler="Checkout">
+    <div class="row mt-2">
+        <div class="col-md-3">ShipAddress</div>
+        <div class="col-md-9">
+            <input required="true" asp-for="@Model.Order.ShipAddress" class="form-control" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-3">ShipCity</div>
+        <div class="col-md-9">
+            <input required="true" asp-for="@Model.Order.ShipCity" class="form-control" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-3">ShipRegion</div>
+        <div class="col-md-9">
+            <input required="true" asp-for="@Model.Order.ShipRegion" class="form-control" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-3">ShipPostalCode</div>
+        <div class="col-md-9">
+            <input required="true" asp-for="@Model.Order.ShipPostalCode" class="form-control" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-3">ShipCountry</div>
+        <div class="col-md-9">
+            <input required="true" asp-for="@Model.Order.ShipCountry" class="form-control" />
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Checkout</button>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+</form>
