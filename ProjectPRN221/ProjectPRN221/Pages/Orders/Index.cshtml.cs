@@ -23,17 +23,23 @@ namespace ProjectPRN221.Pages.Orders
         {
             PageSize = 4;
             PageIndex = pageNumber ?? 1;
+            if(HttpContext.Session.GetString("customer") == null)
+            {
+                return RedirectToPage("/Error");
+            }
+            else
+            {
+                var acc = JsonSerializer.Deserialize<Models.Account>(HttpContext.Session.GetString("customer"));
+                IQueryable<Models.Order> query = _context.Orders.Include(o => o.Employee).Where(o => o.CustomerId.Equals(acc.CustomerId));
 
-            var acc = JsonSerializer.Deserialize<Models.Account>(HttpContext.Session.GetString("customer"));
-            IQueryable<Models.Order> query = _context.Orders.Include(o => o.Employee).Where(o => o.CustomerId.Equals(acc.CustomerId));
+                TotalItems = await query.CountAsync();
 
-            TotalItems = await query.CountAsync();
-
-            Orders = await query
-                .Skip((PageIndex - 1) * PageSize)
-                .Take(PageSize)
-                .ToListAsync();
-            return Page();
+                Orders = await query
+                    .Skip((PageIndex - 1) * PageSize)
+                    .Take(PageSize)
+                    .ToListAsync();
+                return Page();
+            }
         }
     }
 }
